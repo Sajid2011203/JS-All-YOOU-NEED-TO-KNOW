@@ -2,6 +2,8 @@
 
 //  What is Functional Programing?
 `Functional Programing is a programing paradigm-a style of building the structureand elements of computer programs- that treats computation as the evaluation of mathmetical functions and avoids changingstate and mutable data-`
+    
+ `Functional programming is a paradigm of building computer programs using expressions and functions without mutating state and data.(toptal.com)`
 
 // Three Main Terms
 

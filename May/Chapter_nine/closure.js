@@ -11,3 +11,13 @@ function b(){
 var c = b()
 
 console.dir(c)
+
+function greeting(msg) {
+    return function (name) {
+        console.log(msg + '' + name)
+    }
+}
+
+var hello = greeting('Hello!')
+
+hello('Nayem')

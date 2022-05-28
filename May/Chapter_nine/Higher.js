@@ -1,3 +1,8 @@
+/* Higher Order Function
+5. we can Pass Function as an arguments
+6. We can return Functions from Another Function
+*/
+
 // function add(a, b) {
 //   return a + b
 // }

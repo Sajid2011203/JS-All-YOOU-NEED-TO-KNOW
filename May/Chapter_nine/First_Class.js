@@ -5,17 +5,19 @@
 2. A Function can be stored in an Array
 3. A Function can be Stored in  an object
 4. A we can Create Function as Need
+
+// Higher Order Function
 5. we can Pass Function as an arguments
 6. We can return Functions from Another Function
  */
 
 // 1. A Function can be stored in a variable
 function add(a, b) {
-  return a + b
+    return a + b
 }
-var result = add(10, 20)
+var result = add 
 
-console.log(result)
+console.log(result(5, 6))
 
 // 2. A Function can be stored in an Array
 
@@ -27,19 +29,19 @@ console.log(arr)
 
 // 3. A Function can be Stored in  an object
 var obj = {
-  sum: add(50, 50),
+    sum: add(50, 50),
 }
 
 console.log(obj)
 
 // 4. A we can Create Function as Need
 setTimeout(function () {
-  console.log("I Have create a Function in 'setTimeout()' function ")
+    console.log("I Have create a Function in 'setTimeout()' function ")
 }, 2500)
 
 // 5. we can Pass Function as an arguments
 function passArgument(n, fun) {
-  return n * fun
+    return n * fun
 }
 
 var result = passArgument(10, add(5, 5))
@@ -56,17 +58,15 @@ console.log(result)
 // console.log(result2)
 
 function base(b) {
-   return function(n) {
-       var result = 0
-       for (var i = 0; i < b; i++){
-           result *= n
-       }
-       return result
+    return function (n) {
+        var result = 0
+        for (var i = 0; i < b; i++) {
+            result *= n
+        }
+        return result
     }
 }
 
 var result = base(10)(2)
 
 console.log(result)
-
-

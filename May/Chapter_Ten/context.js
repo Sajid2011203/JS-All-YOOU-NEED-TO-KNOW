@@ -18,8 +18,8 @@ function d() {
 }
 
 a()
+let = number = 100
 console.log(number)
- let = number = 100
 
 
 

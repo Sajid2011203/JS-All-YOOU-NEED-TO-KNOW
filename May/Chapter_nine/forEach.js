@@ -51,17 +51,41 @@
 
 //diffrent bitwen forEach() and map()
 
-var arr = [1, 2, 3]
+// var arr = [1, 2, 3]
 
-var foreach = arr.forEach(function (value) {
-  return value * value
-})
+// var foreach = arr.forEach(function (value) {
+//   return value * value
+// })
 
-console.log(foreach)
+// console.log(foreach)
 
-var store = arr.map(function (value) {
-  return value * value
-})
+// var store = arr.map(function (value) {
+//   return value * value
+// })
 
-console.log(store)
+// console.log(store)
 
+
+var arr = [1, 2, 3, 4, 5]
+
+// var sum = 0
+// arr.forEach(function (value) {
+//   return sum += value
+// })
+
+// console.log(arr);
+// console.log(sum);
+
+// function forEach(arr, cb) {
+//   for (var i = 0; i < arr.length; i++){
+//     cb(arr[i], i , arr)
+//   }
+// }
+// var sum = 0
+// forEach(arr, function (value, index, arr) {
+//   // console.log(value, index, arr);
+
+//   sum += value
+// })
+
+// console.log(sum);
