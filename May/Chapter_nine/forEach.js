@@ -66,7 +66,7 @@
 // console.log(store)
 
 
-var arr = [1, 2, 3, 4, 5]
+// var arr = [1, 2, 3, 4, 5]
 
 // var sum = 0
 // arr.forEach(function (value) {

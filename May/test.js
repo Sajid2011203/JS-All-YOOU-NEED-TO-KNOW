@@ -154,3 +154,40 @@
 // lessThanOrEqualToZero(-2) //➞ true
 
 
+// Inner for loop
+
+// for (var i = 1; i <= 5; i++){
+
+//     var names = i + ' Nayem'
+
+//     for (var x = 1; x <= 5; x++){
+//         console.log(x + ' Inner Loop')
+//     }
+
+//     console.log(names);
+// }
+
+
+
+function testArgs() {
+
+    var temp = 0;
+
+    for (var i = 0; i < arguments.length; i++){
+        temp += arguments[i]
+    }
+
+    return temp
+}
+
+console.log(1,3,6,7)
+
+function nextEdge(side1, side2) {
+	var max_length = side1 + side2 -1
+	var min_length = Math.max(side1, side2) - Math.min(side1, side2) + 1
+	console.log('max = ' + max_length)
+	console.log('min = ' + min_length)
+}
+
+nextEdge(8, 10)
+

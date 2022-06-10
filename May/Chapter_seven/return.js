@@ -1,4 +1,5 @@
-// return statment output dey function theke log output dite pare na
+
+// return statment output দেয় কিন্তু console.log স্টেটমেন্ট অউতপুট দিতে পারে না সেই জন্য undefined দেখায় 
 
 function person(firsName, lastName, gender) {
   if (gender === "male") {
@@ -32,3 +33,13 @@ function add(a, b) {
 
 var output = add(10, 5)
 console.log(output);
+
+
+// Input Hour and get output Minute
+
+function getSecond(n) {
+  return n * 60 *60
+}
+
+console.log(getSecond(20));
+

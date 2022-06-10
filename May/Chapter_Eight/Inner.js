@@ -1,4 +1,7 @@
-function inner(a, b){
+
+// inner function 
+
+function inner(a, b) {
     function addition(){
         console.log(a + b)
     }
@@ -8,7 +11,7 @@ function inner(a, b){
 
 var s = 40
 
-var r = 1100
+var r = 11
 inner(s, r)
 
 inner(40, 50)

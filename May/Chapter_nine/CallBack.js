@@ -108,27 +108,53 @@
 // })
 // console.log(sub);
 
-function dataBase(name, callback) {
-    var date = new Date()
-    var hours = date.getHours() 
-    return callback(name, hours)
+// function dataBase(name, callback) {
+//     var date = new Date()
+//     var hours = date.getHours() 
+//     return callback(name, hours)
 
-}
+// }
 
-var result = dataBase('Maliha', function (name, hours) {
-    if (hours <= 12 ) {
-        var Morning = 'Good Morning! ' + name
-        return Morning;
-    } else if (hours <= 18) {
-        var Afternoon = 'Good Afternoon! ' + name
-        return Afternoon;
-    } else if (hours <= 20) {
-        var evening = 'Good Evening! ' + name
-        return evening;
-    } else {
-        var night = 'Good Night! ' + name
-        return night;
-    }
-})
+// var result = dataBase('Maliha', function (name, hours) {
+//     if (hours <= 12 ) {
+//         var Morning = 'Good Morning! ' + name
+//         return Morning;
+//     } else if (hours <= 18) {
+//         var Afternoon = 'Good Afternoon! ' + name
+//         return Afternoon;
+//     } else if (hours <= 20) {
+//         var evening = 'Good Evening! ' + name
+//         return evening;
+//     } else {
+//         var night = 'Good Night! ' + name
+//         return night;
+//     }
+// })
 
-console.log(result);
+// console.log(result);
+
+
+// function Greet(name, hours) {
+//     if (hours <= 12 ) {
+//         var Morning = 'Good Morning! ' + name
+//         return Morning;
+//     } else if (hours <= 18) {
+//         var Afternoon = 'Good Afternoon! ' + name
+//         return Afternoon;
+//     } else if (hours <= 20) {
+//         var evening = 'Good Evening! ' + name
+//         return evening;
+//     } else {
+//         var night = 'Good Night! ' + name
+//         return night;
+//     }
+// }
+
+// function getHours() {
+//     var date = new Date()
+//     var get = date.getHours()
+
+//     return get
+// }
+
+// console.log(Greet('Hasan', getHours()))
