@@ -169,25 +169,41 @@
 
 
 
-function testArgs() {
+// function testArgs() {
 
-    var temp = 0;
+//     var temp = 0;
 
-    for (var i = 0; i < arguments.length; i++){
-        temp += arguments[i]
-    }
+//     for (var i = 0; i < arguments.length; i++){
+//         temp += arguments[i]
+//     }
 
-    return temp
+//     return temp
+// }
+
+// console.log(1,3,6,7)
+
+// function nextEdge(side1, side2) {
+// 	var max_length = side1 + side2 -1
+// 	var min_length = Math.max(side1, side2) - Math.min(side1, side2) + 1
+// 	console.log('max = ' + max_length)
+// 	console.log('min = ' + min_length)
+// }
+
+// nextEdge(8, 10)
+
+
+// let str = 'I love allah, allah is rahman'
+
+// let substr = 'allah'
+
+let obj = {
+  a: 20,
+  b: 'English'
 }
 
-console.log(1,3,6,7)
+console.log(JSON.stringify(obj))
 
-function nextEdge(side1, side2) {
-	var max_length = side1 + side2 -1
-	var min_length = Math.max(side1, side2) - Math.min(side1, side2) + 1
-	console.log('max = ' + max_length)
-	console.log('min = ' + min_length)
-}
 
-nextEdge(8, 10)
+
+
 

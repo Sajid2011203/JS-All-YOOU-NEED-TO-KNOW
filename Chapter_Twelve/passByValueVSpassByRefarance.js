@@ -39,3 +39,15 @@
 
 // changeUndefined()
 // console.log(undefined);
+
+
+// let s = [10]
+
+// let j = s
+
+// j[0] = 100
+
+// console.log(s)
+// console.log(j)
+
+
